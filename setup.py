@@ -4,12 +4,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="mrouge",
+    version="1.0.0",
+    name="rouge_score",
     author="Google LLC",
     description="Multilingual ROUGE score based on Google rouge_score and xl-sum",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=['mrouge'],
+    packages=['rouge_score'],
     package_dir = {'rouge_score':''},
     classifiers=[
         "Programming Language :: Python :: 3",
