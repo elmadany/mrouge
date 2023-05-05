@@ -1,5 +1,7 @@
 # Multilingual ROUGE Scoring
-This code is to do "multilingual ROUGE scoreing". For convenience, we copy the below from [XL-SUM's GitHub](https://github.com/csebuetnlp/xl-sum/tree/master/multilingual_rouge_scoring)..
+This code is to do "multilingual ROUGE scoreing".
+
+## Quick Installation
 ```bash
 #Installing the requirments for Turkish and Bengali stemmers
 #-----------------------------------------------------------
@@ -12,6 +14,7 @@ pip install -U git+https://github.com/elmadany/multilingual_rouge_scoring.git
 ```
 
 ## Overview
+For convenience, we copy the below from [XL-SUM's GitHub](https://github.com/csebuetnlp/xl-sum/tree/master/multilingual_rouge_scoring)..
 
 ROUGE is the de facto evaluation metric used for text summarization. However, it was designed specifically for evaluating English texts. Due to the nature of the metric, scores are heavily dependent on text tokenization / stemming / unnecessary character removal, etc. This repo tries to address these issues by adding the following main features using an adaptation of [rouge-score: Google's rouge implementation](https://github.com/google-research/google-research/tree/master/rouge).
 
