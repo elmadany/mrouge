@@ -1,6 +1,15 @@
 # Multilingual ROUGE Scoring
 This code is to do "multilingual ROUGE scoreing". For convenience, we copy the below from [XL-SUM's GitHub](https://github.com/csebuetnlp/xl-sum/tree/master/multilingual_rouge_scoring)..
+```bash
+#Installing the requirments for Turkish and Bengali stemmers
+#-----------------------------------------------------------
+pip install git+https://github.com/otuncelli/turkish-stemmer-python
+pip install git+https://github.com/abhik1505040/bengali-stemmer
 
+#install multilingual ROUGE scoring
+#----------------------------------
+pip install -U git+https://github.com/elmadany/multilingual_rouge_scoring.git
+```
 
 ## Overview
 
