@@ -22,7 +22,7 @@ setuptools.setup(
         "numpy",
         "six>=1.14.0",
         "pythainlp",
-#         "pyonmttok",
+        "pyonmttok",
         "jieba",
 #         "fugashi[unidic]"
     ],
