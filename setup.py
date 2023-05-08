@@ -24,7 +24,7 @@ setuptools.setup(
         "pythainlp",
         "pyonmttok",
         "jieba",
-        "fugashi[unidic]"
+#         "fugashi[unidic]"
     ],
     python_requires='>=3.6',
 )
